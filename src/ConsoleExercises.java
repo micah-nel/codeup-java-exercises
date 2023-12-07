@@ -9,20 +9,11 @@ public class ConsoleExercises{
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a number");
-        int num = sc.nextInt();
-
-        System.out.println("Enter a word");
-        String firstWord = sc.nextLine();
-        System.out.printf("your first word is %s", firstWord);
-
-        System.out.println(" \nEnter a 2nd word");
-        String secondWord = sc.nextLine();
-        System.out.printf("your second word is %s", secondWord);
-
-        System.out.println(" \nEnter a 3rd word");
-        String thirdWord = sc.nextLine();
-        System.out.printf("your third word is %s", thirdWord);
+        System.out.println("Please enter 3 words");
+        String firstWord = sc.next();
+        String secondWord = sc.next();
+        String thirdWord = sc.next();
+        System.out.printf("First word: %s%nSecond word: %s%nThird word: %s", firstWord,secondWord,thirdWord);
 
         System.out.print("Enter the length of the class room");
         int firstNum =sc.nextInt();
